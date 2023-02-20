@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 from Script import bot, chat_id, is_running, check_multiplescripts, autoFarm
-from Script import button_image, button_image2, autoBR
+from Script import autoBR
 
 @bot.message_handler(commands=['startFarm'])
 def start_autoFarm(msg):
